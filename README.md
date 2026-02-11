@@ -1,9 +1,8 @@
 # STUDENT UTILITY APP
 
 ## Project Description
-The Student Utility App is a Java console-based application designed to perform basic utility operations using a menu-driven system. 
-The menu-driven interface is where they can select from multiple options.
-
+The Student Utility App is a Java console-based application designed to perform basic utility operations using a menu-driven system.
+The program presents a menu with different options and allows the user to repeatedly perform operations until they choose to exit.
 The application demonstrates the use of:
 - Git & GitHub workflow
 - Java syntax and structure
@@ -18,15 +17,31 @@ The program continues running until the user selects the Exit option.
 
 ## Features
 
-- Add two numbers
+The application provides the following functionalities:
+1. Addition of Two Numbers
+    - Prompts the user to enter two numbers 
+    - Displays their sum
 
-- Check if a number is EVEN or ODD
+2. Check if a Number is Even or Odd
+   - Accepts a number from the user 
+   - Determines whether it is EVEN or ODD 
+   - Implemented using a separate method:
+   > checkEvenOrdOdd(int number)
 
-- Print numbers from 1 to N
+3. Print Numbers from 1 to N
+   - Accepts a value N 
+   - Prints numbers from 1 up to N 
+   - Implemented using a separate method:
+   > print1toN(int N)
 
-- Display day of the week (1–7)
+4. Display Day of the Week
+   - Accepts a number from 1 to 7 
+   - Displays the corresponding day 
+   - Implemented using a separate method:
+   > checkDay(int day)
 
-- Exit the application
+5. Exit
+   - Terminates the program
 
 ## How to run the program
 1. Install Java (JDK 8 or higher).
@@ -35,14 +50,11 @@ The program continues running until the user selects the Exit option.
 
 3. Navigate to the file directory.
 
-4. Compile the program: javac StudentUtilityApp.java
+4. Compile the program:
+```javac StudentUtilityApp.java```
 
 5. Run the program:
-````
-java StudentUtilityApp
-````
-Follow the on-screen instructions.
-
+```` java StudentUtilityApp ````
 
 ## Sample Output
 ````
@@ -52,24 +64,16 @@ Follow the on-screen instructions.
 3. Print numbers from 1 to N
 4. Display day of the week
 5. Exit
-   Enter your choice: 1
-
-Enter two numbers:
-5
-7
-Result: 12
-
->>>> STUDENT UTILITY APP <<<<
-1. Add two numbers
-2. Check if a number is EVEN or ODD
-3. Print numbers from 1 to N
-4. Display day of the week
-5. Exit
-   Enter your choice:
-
+   Enter your choice: 2
+````
+if user selects 2:
+```` 
+Enter a digit to check if it is EVEN or ODD
+4
+EVEN
 ````
 
 ## Author Info
-Name: Ayobami Adepoju
-Project Type: Java Console Application
+Name: Ayobami Adepoju 
+Project Type: Java Console Application 
 Year: 2026
