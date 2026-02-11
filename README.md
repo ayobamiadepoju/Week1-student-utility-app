@@ -74,6 +74,10 @@ EVEN
 ````
 
 ## Author Info
-Name: Ayobami Adepoju 
+Name: Ayobami Adepoju
+
 Project Type: Java Console Application 
+
+Purpose: Practice project to strengthen Java fundamentals and demonstrate the use of loops, conditionals, and methods.
+
 Year: 2026
